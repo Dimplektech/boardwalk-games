@@ -5,11 +5,13 @@
 :root{
     --primary-font:"Inter", sans-serif;
     --secondary-font:"Macondo",cursive;
-    --primary-color:#416a8e; /*Blue*/
+    --primary-color: #3a2620; /* dark brown */
     --secondary-color:#aa9581;
     --highlight-color:#416a8e;
     --highlight-color-light:#7a9fc2;
 }
+
+/* Global styles */
 
 body{
     font-family: var(--primary-font);
@@ -19,7 +21,31 @@ body{
 h1,h2,h3{
     font-family: var(--secondary-font);
     color: var(--primary-color);
+    text-transform: uppercase;
 }
+.sub-heading-color {
+    color: var(--highlight-color-light);
+}
+
+.section{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Navbar css*/
+#navbar{
+    background-color: var(--primary-color);
+}
+
+#navbar .logo{
+    width: 30px;
+}
+
+/* Header */
+#header .lead {
+    font-family: var(--secondary-font);
+}
+
 
 /* Grid Visualisation CSS for testing */
 /* .container, .row{
