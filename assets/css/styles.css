@@ -33,7 +33,7 @@ h2{
     margin-bottom: 2rem;
 }
 .sub-heading-color {
-    color: var(--highlight-color-light);
+    color: var(--highlight-color);
 }
 
 .section{
@@ -189,13 +189,3 @@ h2{
 
 
 
-
-/* Grid Visualisation CSS for testing */
-/* .container, .row{
-    border: 2px solid black;
-    
-}
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
