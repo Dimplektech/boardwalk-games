@@ -15,6 +15,8 @@
 
 body{
     font-family: var(--primary-font);
+    padding: 50px; /* pushes the top of the header down under fixed navbar */
+
 
 }
 
@@ -134,6 +136,7 @@ h2{
 
 
 /*  Media devices(tablets,769px and above) */
+    
 @media screen and (min-width:768px) {
     /* Make all service cards the same height for consistency */
     #services .card-body{
@@ -178,6 +181,7 @@ h2{
     }
 
 }
+
 
 
 
