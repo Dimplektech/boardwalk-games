@@ -1,3 +1,4 @@
+
 /* google font imports */
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Macondo&family=Oswald:wght@200..700&display=swap');
 
@@ -91,10 +92,20 @@ h2{
 }
 
 /* Games-library page */
-#games .card{
+/* new-games card */
+#new-games .card{
     margin-bottom: 1.5rem;
 }
-#games .card-footer{
+#new-games .card-footer{
+    font-weight: bold;
+    color: var(--highlight-color);
+    background: transparent;
+}
+/* fav-games card */
+#fav-games .card{
+    margin-bottom: 1.5rem;
+}
+#fav-games .card-footer{
     font-weight: bold;
     color: var(--highlight-color);
     background: transparent;
@@ -120,6 +131,8 @@ h2{
     color:var(--highlight-color);
     font-size: 1.2rem;
     margin-right:15px;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 #contact .social-links i{
@@ -142,7 +155,10 @@ h2{
     #services .card-body{
         min-height: 191px;
     }
-    #games .card-body{
+    #new-games .card-body{
+        min-height: 215px;
+    }
+    #fav-games .card-body{
         min-height: 215px;
     }
     
@@ -153,7 +169,10 @@ h2{
     #services .card-body{
         min-height: auto;
     }
-    #games .card-body{
+    #new-games .card-body{
+        min-height: auto;
+    }
+    #fav-games .card-body{
         min-height: auto;
     }
 }
@@ -164,7 +183,10 @@ h2{
     #services .card-body{
         min-height: 220px;
     }
-    #games .card-body{
+    #new-games .card-body{
+        min-height: 240px;
+    }
+    #fav-games .card-body{
         min-height: 240px;
     }
 
@@ -176,12 +198,14 @@ h2{
     #services .card-body{
         min-height:195px;
     }
-    #games .card-body{
+    #new-games .card-body{
+        min-height:218px;
+    }
+    #fav-games .card-body{
         min-height:218px;
     }
 
 }
-
 
 
 
